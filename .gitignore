@@ -1,0 +1,7 @@
+.idea
+.ipynb_checkpoints
+app
+venv
+data
+map_predict.html
+map_predict_filtered.html

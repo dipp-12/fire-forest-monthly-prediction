@@ -105,8 +105,12 @@ def predict(df):
 
     pred_df = pd.DataFrame(index_list, columns=['longitude', 'latitude'])
     pred_df['surface_temp'] = y_pred
+
+    # Convert the temperature from Kelvin to Celsius
     pred_df['surface_temp'] = pred_df['surface_temp'] - 273.15
-    pred_df = pred_df[pred_df['surface_temp'] > 35]
+
+    # Filter the data with surface temperature above 35 degrees Celsius
+    pred_df = pred_df[pred_df['surface_temp'] >= 35]
 
     return pred_df
 

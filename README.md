@@ -39,4 +39,5 @@ flowchart TD;
 
 ## Prediction Result
 ![image](https://github.com/user-attachments/assets/e7a9f75a-3224-4e46-9a97-119e74b2a3dd)
+This prediction result can be accessed in [nadhif.me/fire-forest-monthly-prediction](https://nadhif.me/fire-forest-monthly-prediction).
 
